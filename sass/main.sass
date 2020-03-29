@@ -1,0 +1,120 @@
+
+@import "../bootstrap/scss/bootstrap"
+
+$main-color : #f7bd8a
+$strong-orange: #ff9800
+
+body
+    font-family: Raleway, sans-serif
+
+a
+    color: white
+
+    &:hover
+        color: #f5ebd4
+        text-decoration: underline
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon 
+    height: 40px
+    width: 20px
+    
+.dropdown-menu
+    min-width: 12rem
+
+.dropdown-item
+    font-size: 1.2rem
+
+    &:hover
+        transition: background-color 0.3s
+        background-color: #ff8c3b26
+
+.list-unstyled
+    padding-bottom: 1%
+
+.page-link
+    color: #4e5c63
+    &:hover
+        color: $strong-orange
+
+.page-item.active .page-link 
+    background-color: $strong-orange
+    border-color: $strong-orange
+
+.card
+    margin-bottom: 5%
+    .card-img-top
+        height: 360px 
+        object-fit: cover 
+        position: relative
+    .card-img-overlay
+        text-align: end
+
+.navbar
+    font-weight: 100
+
+    .navbar-brand
+        color: $main-color
+        font-size: 1.6rem
+        padding: 1%
+        &:hover
+            transition: color 0.3s
+            color: #f49643
+
+    .navbar-toggler-icon
+        font-weight: 100
+        &:hover
+            transition: color 0.3s
+            color: #f49643
+    .nav-item
+        font-size: 1.2rem
+        padding: 3%
+
+.join
+    letter-spacing: 2px
+
+    &:hover
+        letter-spacing: 2px
+        background: #fbe0ad
+        color: black
+        border: 2px solid white
+
+.fab:hover
+    color: #f9d695
+
+@include media-breakpoint-up(lg) 
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon 
+    height: 80px
+    width: 40px
+
+.list-unstyled
+    font-size: 1.2rem
+
+.list-unstyled a
+    width: 3rem  
+
+.fab
+    font-size: 1.5rem
+        
+
+.nav-link:hover
+    transition: border 0.3s
+    border-bottom: 1px solid $main-color
+
+.carousel-item 
+    h3
+        font-size: 2.5rem
+    p
+        font-size: 1.2rem
+
+.join
+    width: 10rem
+    letter-spacing: 3px
+
+    &:hover
+        letter-spacing: 3px
+        background: #fbe0ad
+        color: black
+        border: 1px solid white
