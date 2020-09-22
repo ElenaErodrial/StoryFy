@@ -1,6 +1,6 @@
 # StoryFy
 
-Landing page template, using Bootstrap 4 and changing styles with Sass. 
+Landing page template, using Bootstrap 4 and customized styles with Sass. 
 
 ## Open it here: 
 
